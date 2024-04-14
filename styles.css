@@ -1,0 +1,78 @@
+body {
+	background-color: black;
+}
+
+div {
+	background-color: white;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+}
+
+div#postcard {
+	height: 25%;
+	width: 25%;
+	margin-top: 5%;
+	border: 250px solid rgba(0, 0, 0, 0.905);
+}
+
+div#title {
+	padding-right: 50%;
+	padding-top: 10px;
+}
+
+div#middle {
+	margin-top: -20px;
+	justify-items: normal;
+}
+
+div#logo img {
+	margin-top: 10px;
+	padding-right: 5px;
+	height: 60px;
+	width: 60px;
+}
+
+h1 {
+	padding-left: 10px;
+	font-family: "The Girl Next Door", cursive;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 200%;
+}
+
+p {
+	text-align: left;
+	padding: 0 5%;
+	font-family: "Atma", system-ui;
+	font-weight: 500;
+	font-style: normal;
+}
+
+input[type="text"] {
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #000000;
+	margin: 0px 25px 5px 5px;
+	text-align: left;
+	outline: white;
+	font-family: "Atma", system-ui;
+	font-weight: 600;
+	font-style: normal;
+}
+
+div#fields {
+	text-align: right;
+}
+
+button {
+	outline: none;
+	padding: 5px;
+	margin: 10px;
+	margin-bottom: 20px;
+	font-family: "Atma", system-ui;
+	font-weight: 500;
+	font-style: normal;
+}
